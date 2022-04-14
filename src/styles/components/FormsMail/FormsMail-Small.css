@@ -1,0 +1,44 @@
+@media only screen and (max-width: 425px){
+  .forms-mail {
+    display: flex;
+    flex-direction: column;
+    background-color: #263561;
+    align-items: center;
+    width: 16rem;
+    height: 30rem;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 2rem;
+    flex-shrink: 3;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forms-from {
+    width: 15rem;
+    border: none;
+    padding: 8px;
+    color: #263561;
+  }
+  
+  .message {
+    height: 10rem;
+    flex-shrink: 3;
+  }
+  
+  .disabled-modal {
+    display: none;
+  }
+  
+  .forms-button {
+    width: 8rem;
+    height: 3rem;
+  }
+  
+  .forms-button:enabled {
+    width: 8rem;
+    height: 3rem;
+    background-color: #A0FAA6;
+    color: #263561;
+    font-weight: 500;
+  }
+}

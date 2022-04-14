@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Trybe Futebol Club",
+    "about": "O TFC é um site informativo sobre partidas e classificações de futebol!",
+    "imageUrl": "https://raw.githubusercontent.com/vitovls/TFC-Trybe-Futebol-Club/main/front-example.png",
+    "gitHubUrl": "https://www.github.com/vitovls/TFC-Trybe-Futebol-Club",
+    "stacks": [
+      {"stackName": "Node", "brandColor": "#44883e"},
+      {"stackName": "Express", "brandColor": "#44883e"},
+      {"stackName": "TypeScript", "brandColor": "#2d79c7"},
+      {"stackName": "Docker", "brandColor": "#1f8cae"},
+      {"stackName": "MySql", "brandColor": "#f3950f"}, {"stackName": "Sequelize", "brandColor": "#54b2e3"}]
+  },
+  {
+    "name": "Em breve",
+    "about": "Em breve um novo projeto",
+    "imageUrl": "https://i.imgur.com/3xFSTKr.png",
+    "gitHubUrl": "/projects",
+    "stacks": []
+  }
+]

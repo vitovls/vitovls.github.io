@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px){
+  /*Small smartphones [325px -> 425px]*/
+  /* Verde: #A0FAA6 Azul: #192340 */
+  header {
+    display: flex;
+    background-color: #192340;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 7rem;
+  }
+
+  .navigator {
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+  }
+
+  .selectedPage {
+    color: #A0FAA6;
+  }
+
+  .link:hover, .selectedPage:hover {
+    border-bottom: dashed 2px #A0FAA6;
+    font-size: large;
+    transition: 0.5s;
+  }
+}

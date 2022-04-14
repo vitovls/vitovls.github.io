@@ -13,9 +13,12 @@ export default function Home() {
       <Header props={pathname}/>
       <section className='home'>
         <main className='main-home'>
+          <img className='image-text-home' src='https://i.imgur.com/QysXrcL.png'/>
+          <section className='text-home'>
           <p className='paragraph-home'>Olá, meu nome é, <i className='name-main-home'><br/>Victor Veloso</i></p>
           <p className='paragraph-home'>Sou um <i className='highlights-home'>Desenvolvedor Fullstack.</i></p>
           <p className='paragraph-home'>Aqui você pode conhecer <br/><i className='highlights-home'>Meu Trabalho.</i></p>
+          </section>
         </main>
         <Link href='/projetos'><button className='more-button'>Conhecer mais!</button></Link>
         <Footer />

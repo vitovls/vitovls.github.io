@@ -38,6 +38,7 @@ body {
 /*Tablets [601px -> 1200px]*/
 /*Components*/
 @import url('./components/Header/header-big.css');
-
+@import url('./components/Footer/footer-big.css');
 
 /*Pages*/
+@import url('./pages/home/home-big.css');

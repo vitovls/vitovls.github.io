@@ -1,0 +1,19 @@
+@media only screen and (min-width: 600px) {
+  /* Verde: #A0FAA6 Azul: #192340 */
+  footer {
+    background-color: #263561;
+    width: 98.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 30px;
+  }
+  
+  .github-icon-footer {
+    width: 40px;
+  }
+  .linkedin-icon-footer {
+    width: 40px;
+  }
+}

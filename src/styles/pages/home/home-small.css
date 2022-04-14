@@ -37,4 +37,8 @@
     padding: 8px;
     width: 8rem;
   }
+
+  .image-text-home {
+    display: none;
+  }
 }

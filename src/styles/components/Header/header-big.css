@@ -1,6 +1,5 @@
 @media only screen and (min-width: 600px){
   /*Small smartphones [325px -> 425px]*/
-  /* Verde: #A0FAA6 Azul: #192340 */
   header {
     display: flex;
     background-color: #192340;

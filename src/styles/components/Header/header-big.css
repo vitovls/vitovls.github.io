@@ -28,4 +28,18 @@
     font-size: large;
     transition: 0.5s;
   }
+
+  .animated-border {
+		color: #fff;
+		padding: 1px;
+    height: 1px;
+		animation: blinkingBackground 2s infinite;
+	}
+  @keyframes blinkingBackground{
+		0%		{ background-color: #A0FAA6;}
+		25%		{ background-color: #40615d;}
+		50%		{ background-color: #A0FAA6;}
+		75%		{ background-color: #40615d;}
+		100%	{ background-color: #A0FAA6;}
+	}
 }

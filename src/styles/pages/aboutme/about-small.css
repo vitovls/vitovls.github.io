@@ -47,4 +47,24 @@
     height: 50px;
     padding: 6px;
   }
+
+  .first-section-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-section-aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .about-stw-photo {
+    order: 2;
+    margin-top: 15px;
+    width: 10rem;
+  }
 }

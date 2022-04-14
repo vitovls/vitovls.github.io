@@ -6,15 +6,14 @@
     align-items: center;
     width: 16rem;
     height: 30rem;
-    justify-content: space-between;
     padding: 15px;
     margin-bottom: 2rem;
-    flex-shrink: 3;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
   
   .forms-from {
     width: 15rem;
+    margin-bottom: 2rem;
     border: none;
     padding: 8px;
     color: #263561;

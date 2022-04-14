@@ -4,18 +4,6 @@ import listProjects from '../list-projects.json'
 import Tag from '../components/Tags'
 
 export default function CardProjects({props}) {
-  // const url = 'https://raw.githubusercontent.com/vitovls/TFC-Trybe-Futebol-Club/main/front-example.png'
-  // return (
-  //     <section className='container-project-card'>
-  //       <span className='image-project-card' style={{
-  //         backgroundImage: `url(${(url)})`
-  //       }}></span>
-  //       <article className='texts-project-card'>
-  //         <h1>Title Project</h1>
-  //         <p>About the Project</p>
-  //       </article>
-  //     </section>
-  // )
   return (
     listProjects.map((project) => {
       return (

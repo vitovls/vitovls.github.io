@@ -24,7 +24,7 @@ body {
 
 @import url('./pages/home/home-small.css');
 @import url('./pages/aboutme/about-small.css');
-@import url('./pages/projects/styles.css');
+@import url('./pages/projects/projects-small.css');
 @import url('./pages/contact/contact-small.css');
 
 /*Tablets [601px ->]*/
@@ -33,7 +33,9 @@ body {
 
 @import url('./components/Header/header-big.css');
 @import url('./components/Footer/footer-big.css');
+@import url('./components/Tag/Tag-Big.css');
 
 /*Pages*/
 
 @import url('./pages/home/home-big.css');
+@import url('./pages/projects/projects-big.css');

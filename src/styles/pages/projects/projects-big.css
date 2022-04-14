@@ -1,0 +1,33 @@
+@media only screen and (min-width: 600px) {
+  /* Verde: #A0FAA6 Azul: #192340 */
+  .main-projects {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .container-project-card {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-right: 20px;
+  }
+
+  .container-project-card:hover {
+    border: solid 1px wheat;
+  }
+
+  .image-project-card {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .section-tags-project-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}

@@ -20,12 +20,7 @@
 
   .selectedPage {
     color: #A0FAA6;
-  }
-
-  .link:hover, .selectedPage:hover {
-    border-bottom: dashed 2px #A0FAA6;
-    font-size: large;
-    transition: 0.5s;
+    position: relative;
   }
 
   .animated-border {
@@ -41,4 +36,24 @@
 		75%		{ background-color: #40615d;}
 		100%	{ background-color: #A0FAA6;}
 	}
+
+  .link {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .link::after, .selectedPage::after {
+    content: '';
+    background-color: #A0FAA6;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .link:hover::after, .selectedPage::after {
+    width: 100%;
+  }
 }

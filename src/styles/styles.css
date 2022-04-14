@@ -1,0 +1,33 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+  'Open Sans', 'Helvetica Neue', sans-serif;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0; 
+}
+
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+}
+
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+}
+
+/*Small smartphones [325px -> 425px]*/
+/*Components*/
+
+@import url('./components/Header/header-small.css');
+@import url('./components/Footer/footer-small.css');
+@import url('./components/CardProjects/CardProjects-small.css');
+@import url('./components/Tag/Tag-Small.css');
+@import url('./components/FormsMail/FormsMail-Small.css');
+
+/*Pages*/
+
+@import url('./pages/home/home-small.css');
+@import url('./pages/aboutme/about-small.css');
+@import url('./pages/projects/styles.css');
+@import url('./pages/contact/contact-small.css')
+

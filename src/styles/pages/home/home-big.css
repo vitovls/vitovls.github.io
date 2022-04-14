@@ -27,5 +27,23 @@
     background-color: #A0FAA6;
     color: #192340;
     font-weight: 500;
+    cursor: pointer;
+  }
+
+  .dowload-cv-button {
+    width: 10rem;
+    height: 3rem;
+    color: #A0FAA6;
+    background-color: #192340;
+    border: solid 1px #A0FAA6;
+  }
+
+  .dowload-cv-button:hover {
+    color: #192340;
+    border: none;
+    background-color: #A0FAA6;
+    background-size: 200% 100%;
+    background-position:left right;
+    transition: 0.6s ease-in-out;
   }
 }

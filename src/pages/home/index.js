@@ -20,7 +20,10 @@ export default function Home() {
           <p className='paragraph-home'>Aqui você pode conhecer <br/><i className='highlights-home'>Meu Trabalho.</i></p>
           </section>
         </main>
+        <section className='buttons-home'>
         <Link href='/projects'><button className='more-button'>Conhecer mais!</button></Link>
+        <a href='encurtador.com.br/mEFU6' download='cv-victor-veloso'><button className='dowload-cv-button'> Baixar CV ⬇️ </button></a>
+        </section>
         <Footer />
       </section>
     </>

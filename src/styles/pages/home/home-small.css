@@ -29,16 +29,39 @@
     color: #A0FAA6;
   }
 
+  .buttons-home {
+    display: flex;
+    flex-direction: column;
+  }
+
   .more-button {
     color: #192340;
     background-color: #A0FAA6;
     border: none;
     height: 2rem;
-    padding: 8px;
     width: 8rem;
+    padding: 8px;
+    margin-bottom: 15px;
   }
 
   .image-text-home {
     display: none;
+  }
+
+  .dowload-cv-button {
+    height: 2rem;
+    width: 8rem;
+    color: #A0FAA6;
+    background-color: #192340;
+    border: solid 1px #A0FAA6;
+  }
+
+  .dowload-cv-button:hover {
+    color: #192340;
+    border: none;
+    background-color: #A0FAA6;
+    background-size: 200% 100%;
+    background-position:left right;
+    transition: 0.6s ease-in-out;
   }
 }

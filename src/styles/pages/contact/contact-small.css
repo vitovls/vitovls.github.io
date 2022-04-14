@@ -1,0 +1,40 @@
+@media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+  .contact {
+    background-color: #192340;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+
+  .section-mail-header-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-send-mail-contact {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    width: 75%;
+  }
+
+  .section-contact {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: center;
+  }
+
+  .secion-social-contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-contact {
+    width: 50px;
+    padding: 15px;
+  }
+
+}

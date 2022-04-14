@@ -23,19 +23,19 @@ export default function Contato() {
         <section className='social-media-contact'>
         </section>
         <section className='section-social-contact'>
-          <Link href='https://www.github.com/vitovls'>
+          <a href='https://www.github.com/vitovls'>
             <>
               <img className='icon-contact' src='https://i.imgur.com/7rITkqB.png' />
               <p>Meu GitHub</p>
             </>
-          </Link>
+          </a>
          
-          <Link href='https://www.linkedin.com/in/vitovls'>
+          <a href='https://www.linkedin.com/in/vitovls'>
             <>
               <img className='icon-contact' src='https://i.imgur.com/DhHQ7Y2.png' />
               <p>Meu Linkedin</p>
             </>
-          </Link>
+          </a>
         </section>
         <Footer />
       </main>

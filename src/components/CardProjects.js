@@ -8,7 +8,7 @@ export default function CardProjects({props}) {
     listProjects.map((project) => {
       return (
         <>
-          <Link href={`${project.gitHubUrl}`}>
+          <a target='_blank' href={`${project.gitHubUrl}`}>
             <section className='container-project-card'>
               <img className='image-project-card' src={`${project.imageUrl}`} /> 
               <article className='description-project-card'>
@@ -19,7 +19,7 @@ export default function CardProjects({props}) {
                 </section>
               </article>
             </section>
-          </Link>
+          </a>
         </>
       )
     })

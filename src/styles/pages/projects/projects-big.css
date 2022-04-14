@@ -19,6 +19,7 @@
 
   .container-project-card:hover {
     border: solid 1px wheat;
+    cursor: pointer;
   }
 
   .image-project-card {

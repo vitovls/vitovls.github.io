@@ -20,11 +20,11 @@
     height: 15rem;
   }
 
-
   .forms-button {
     height: 5rem;
     width: 7rem;
     align-self: flex-end;
+    cursor: not-allowed;
   }
 
   .forms-button:enabled {
@@ -32,6 +32,7 @@
     color: #263561;
     font-weight: 500;
     border: none;
+    cursor: pointer;
   }
 
   .disabled-modal {

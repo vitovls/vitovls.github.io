@@ -12,8 +12,10 @@
   
   .github-icon-footer {
     width: 40px;
+    cursor: pointer;
   }
   .linkedin-icon-footer {
     width: 40px;
+    cursor: pointer;
   }
 }

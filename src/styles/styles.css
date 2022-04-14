@@ -8,7 +8,7 @@
 }
 
 @media only screen and (max-width: 1200px){
-  /*Tablets [601px -> 1200px]*/
+  
 }
 
 @media only screen and (max-width: 600px){
@@ -29,5 +29,11 @@
 @import url('./pages/home/home-small.css');
 @import url('./pages/aboutme/about-small.css');
 @import url('./pages/projects/styles.css');
-@import url('./pages/contact/contact-small.css')
+@import url('./pages/contact/contact-small.css');
 
+/*Tablets [601px -> 1200px]*/
+/*Components*/
+@import url('./components/Header/header-big.css');
+
+
+/*Pages*/

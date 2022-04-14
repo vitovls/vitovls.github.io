@@ -1,0 +1,77 @@
+@media only screen and (min-width: 600px) {
+  /* Verde: #A0FAA6 Azul: #192340 */
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+  }
+  
+  .about-my-photo{
+    width: 20rem;
+    border-radius: 15px;
+  }
+  
+  .headling-starwars-about {
+    color: aqua;
+    font-size: xx-large;
+  }
+
+  .highlights-about {
+    color: #A0FAA6;
+  }
+  
+  .first-section-aboutme {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    width: 60rem;
+    margin-bottom: 20px;
+  }
+
+  .first-text-aboutme {
+    padding: 15px;
+  }
+
+  .headling-1-about {
+    font-size: xx-large;
+    margin-bottom: 2rem;
+  }
+
+  .stacks-about {
+    background-color: #1D3B57;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 65rem;
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+
+  .image-stack-about {
+    width: 8rem;
+  }
+  
+  .image-stack-about:hover {
+    width: 9rem;
+    transition: 2s;
+  }
+
+  .second-section-aboutme{
+    margin-top: 3rem;
+    display: flex;
+    padding: 15px;
+  }
+
+  .about-stw-photo {
+    margin-right: 1.5rem;
+  }
+
+  .second-text-aboutme {
+    width: 30rem;
+  }
+
+}

@@ -34,9 +34,11 @@ body {
 @import url('./components/Header/header-big.css');
 @import url('./components/Footer/footer-big.css');
 @import url('./components/Tag/Tag-Big.css');
+@import url('./components/FormsMail/FormsMail-Big.css');
 
 /*Pages*/
 
 @import url('./pages/home/home-big.css');
 @import url('./pages/projects/projects-big.css');
 @import url('./pages/aboutme/about-big.css');
+@import url('./pages/contact/contact-big.css')

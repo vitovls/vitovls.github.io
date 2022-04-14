@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+  /* Verde: #A0FAA6 Azul: #192340 Azul escuro */
+  .forms-mail {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: #263561;
+    height: 25rem;
+    padding: 30px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+
+  .forms-from {
+    padding: 8px;
+    margin-bottom: 30px;
+    color: #263561;
+  }
+
+  .message {
+    height: 15rem;
+  }
+
+
+  .forms-button {
+    height: 5rem;
+    width: 7rem;
+    align-self: flex-end;
+  }
+
+  .forms-button:enabled {
+    background-color: #A0FAA6;
+    color: #263561;
+    font-weight: 500;
+    border: none;
+  }
+
+  .disabled-modal {
+    display: none;
+  }
+}

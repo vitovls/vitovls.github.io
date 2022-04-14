@@ -22,13 +22,14 @@ export default function Contato() {
         <FormsMail />
         <section className='social-media-contact'>
         </section>
-        <section className='secion-social-contact'>
+        <section className='section-social-contact'>
           <Link href='https://www.github.com/vitovls'>
             <>
               <img className='icon-contact' src='https://i.imgur.com/7rITkqB.png' />
               <p>Meu GitHub</p>
             </>
           </Link>
+         
           <Link href='https://www.linkedin.com/in/vitovls'>
             <>
               <img className='icon-contact' src='https://i.imgur.com/DhHQ7Y2.png' />

@@ -1,0 +1,34 @@
+@media only screen and (min-width: 600px) {
+  /* Verde: #A0FAA6 Azul: #192340 */
+  .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .section-social-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    padding: 15px;
+  }
+  
+  .icon-contact {
+    width: 5rem;
+    margin-left: 20px;
+  }
+  
+  .section-mail-header-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .section-social-contact > div {
+    display: flex;
+    width: 5rem;
+    align-items: center;
+  }
+}

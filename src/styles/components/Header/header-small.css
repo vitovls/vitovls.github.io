@@ -1,0 +1,38 @@
+@media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+  header {
+    background-color: #192340;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 7rem;
+  }
+
+  .link {
+    text-align: right;
+  }
+
+  .selectedPage {
+    text-align: right;
+    color: #A0FAA6;
+    border-bottom: #A0FAA6 dashed 1px;
+  }
+
+  .animated-border {
+		color: #fff;
+		padding: 1px;
+    height: 1px;
+		animation: blinkingBackground 2s infinite;
+	}
+  @keyframes blinkingBackground{
+		0%		{ background-color: #A0FAA6;}
+		25%		{ background-color: #40615d;}
+		50%		{ background-color: #A0FAA6;}
+		75%		{ background-color: #40615d;}
+		100%	{ background-color: #A0FAA6;}
+	}
+}

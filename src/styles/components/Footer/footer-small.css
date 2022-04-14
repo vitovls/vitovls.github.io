@@ -1,0 +1,34 @@
+@media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+  footer {
+    background-color: #263561;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .paragraph-footer{
+    font-style: italic;
+    padding: 8px;
+    font-size: xx-small;
+  }
+
+  .footer-icons {
+    padding-right: 8px;
+  }
+
+  .github-icon-footer {
+    width: 25px;
+    padding-right: 8px;
+  }
+
+  .linkedin-icon-footer {
+    width: 25px;
+  }
+
+  .highlight-footer {
+    color: #A0FAA6;
+  }
+}

@@ -3,9 +3,11 @@
   .tag-cards-projects{
     padding: 8px;
     margin: 2px;
-  }
-
-  .tag-cards-projects:hover{
-    font-size: large;
+    font-size: 10px;
+    height: 1rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

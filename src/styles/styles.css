@@ -10,16 +10,8 @@
 body {
   background-color: #192340;
 }
-
-@media only screen and (max-width: 1200px){
-  
-}
-
-@media only screen and (max-width: 600px){
-/*Big smartphones [426px -> 600px]*/
-}
-
 /*Small smartphones [325px -> 425px]*/
+
 /*Components*/
 
 @import url('./components/Header/header-small.css');
@@ -35,10 +27,13 @@ body {
 @import url('./pages/projects/styles.css');
 @import url('./pages/contact/contact-small.css');
 
-/*Tablets [601px -> 1200px]*/
+/*Tablets [601px ->]*/
+
 /*Components*/
+
 @import url('./components/Header/header-big.css');
 @import url('./components/Footer/footer-big.css');
 
 /*Pages*/
+
 @import url('./pages/home/home-big.css');

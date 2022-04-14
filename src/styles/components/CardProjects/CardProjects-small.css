@@ -1,0 +1,42 @@
+@media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+  .container-project-card {
+    width: 15rem;
+    height: 14rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-project-card {
+    height: 10rem;
+    width: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .description-project-card {
+    border: solid 0.1rem;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  .headling-project-card {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  .paragraph-project-card {
+    font-size: 9px;
+  }
+
+  .section-tags-project-card {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -20,7 +20,7 @@ export default function Home() {
           <p className='paragraph-home'>Aqui você pode conhecer <br/><i className='highlights-home'>Meu Trabalho.</i></p>
           </section>
         </main>
-        <Link href='/projetos'><button className='more-button'>Conhecer mais!</button></Link>
+        <Link href='/projects'><button className='more-button'>Conhecer mais!</button></Link>
         <Footer />
       </section>
     </>

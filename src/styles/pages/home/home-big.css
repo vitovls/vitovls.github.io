@@ -28,9 +28,17 @@
     color: #192340;
     font-weight: 500;
     cursor: pointer;
+    border: none;
+    margin-right: 15px;
+  }
+
+  .more-button:hover {
+    border: 2px solid grey;
+    background-color: #55fb60c7;
   }
 
   .dowload-cv-button {
+    cursor: pointer;
     width: 10rem;
     height: 3rem;
     color: #A0FAA6;

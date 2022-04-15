@@ -10,7 +10,7 @@ export default function Home() {
   const {pathname} = useRouter()
   return (
     <>
-      <MyHead title={'Bem vindX, ao meu portfólio pessoal!'} favicon='https://img.icons8.com/office/344/home--v1.png'/>
+      <MyHead title={'Bem vindX, ao meu portfólio pessoal!'} favicon='/favicon/home.ico'/>
       <Header props={pathname}/>
       <section className='home'>
         <main className='main-home'>

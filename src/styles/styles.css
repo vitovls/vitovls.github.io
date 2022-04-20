@@ -1,3 +1,5 @@
+/*Global configs*/
+
 * {
   font-family: -apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -10,15 +12,16 @@
 body {
   background-color: #192340;
 }
-/*Small smartphones [325px -> 425px]*/
+
+/*Small smartphones (max-width: 599px) */
 
 /*Components*/
 
-@import url('./components/Header/header-small.css');
-@import url('./components/Footer/footer-small.css');
 @import url('./components/CardProjects/CardProjects-small.css');
-@import url('./components/Tag/Tag-Small.css');
+@import url('./components/Footer/Footer-small.css');
 @import url('./components/FormsMail/FormsMail-Small.css');
+@import url('./components/Header/Header-small.css');
+@import url('./components/Tag/Tag-Small.css');
 
 /*Pages*/
 
@@ -31,14 +34,15 @@ body {
 
 /*Components*/
 
-@import url('./components/Header/header-big.css');
-@import url('./components/Footer/footer-big.css');
-@import url('./components/Tag/Tag-Big.css');
+@import url('./components/Footer/Footer-big.css');
 @import url('./components/FormsMail/FormsMail-Big.css');
+@import url('./components/Header/Header-big.css');
+@import url('./components/Tag/Tag-Big.css');
+
 
 /*Pages*/
 
 @import url('./pages/home/home-big.css');
 @import url('./pages/projects/projects-big.css');
 @import url('./pages/aboutme/about-big.css');
-@import url('./pages/contact/contact-big.css')
+@import url('./pages/contact/contact-big.css');

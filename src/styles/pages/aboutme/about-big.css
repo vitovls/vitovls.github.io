@@ -1,5 +1,4 @@
 @media only screen and (min-width: 600px) {
-  /* Verde: #A0FAA6 Azul: #192340 */
   .aboutme {
     display: flex;
     flex-direction: column;
@@ -43,21 +42,21 @@
     padding: 30px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     width: 65rem;
-    height: 20rem;
+    height: 15rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
   }
 
-
-  .image-stack-about {
-    width: 8rem;
+  .stack-img {
+    width: 50px;
+    height: 50px;
   }
-  
+
   .image-stack-about:hover {
-    width: 9rem;
-    transition: 2s;
+    width: 200px;
+    height: 200px;
   }
 
   .second-section-aboutme{

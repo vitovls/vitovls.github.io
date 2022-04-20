@@ -42,7 +42,7 @@ export default function Sobre() {
         </section>
         <h1 className='headling-1-about'>Stacks 👨‍💻</h1>
         <section className='stacks-about'>
-          <Image className='stack-img' width='100px' height='100px' alt='HTML Logo'  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />                 
+          <Image width='100px' height='100px' alt='HTML Logo' className='image-stack-about' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />                 
           <Image width='100px' height='100px' alt='CSS Logo' className='image-stack-about' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />         
           <Image width='100px' height='100px' alt='JS Logo' className='image-stack-about' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />         
           <Image width='100px' height='100px' alt='React Logo' className='image-stack-about' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />         
@@ -59,7 +59,9 @@ export default function Sobre() {
           <Image width='100px' height='100px' alt='Docker Logo' className='image-stack-about' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />       
         </section>
         <section className='second-section-aboutme'>
-          <Image className='about-stw-photo' src='/stw.gif' width='200px' style={{marginRight: '15px'}} alt='Obi Wan: "May the force be with you."' height='150px' />
+          <div className='about-stw-photo'>
+          <Image src='/stw.gif' width='200px' alt='Obi Wan: "May the force be with you."' height='150px' />
+          </div>
           <section className='second-text-aboutme'>
           <h1 className='headling-1-about'>OFF-CODE 🎮</h1>
           <p className='second-paragraph-about'>

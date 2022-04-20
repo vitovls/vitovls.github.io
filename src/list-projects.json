@@ -9,7 +9,9 @@
       {"stackName": "Express", "brandColor": "#44883e"},
       {"stackName": "TypeScript", "brandColor": "#2d79c7"},
       {"stackName": "Docker", "brandColor": "#1f8cae"},
-      {"stackName": "MySql", "brandColor": "#f3950f"}, {"stackName": "Sequelize", "brandColor": "#54b2e3"}]
+      {"stackName": "MySql", "brandColor": "#f3950f"}, 
+      {"stackName": "Sequelize", "brandColor": "#54b2e3"}
+    ]
   },
   {
     "name": "Em breve",

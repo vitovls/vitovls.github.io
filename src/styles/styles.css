@@ -13,6 +13,10 @@ body {
   background-color: #192340;
 }
 
+a {
+  text-decoration: none
+}
+
 /*Small smartphones (max-width: 599px) */
 
 /*Components*/
@@ -34,10 +38,11 @@ body {
 
 /*Components*/
 
-@import url('./components/Footer/Footer-big.css');
-@import url('./components/FormsMail/FormsMail-Big.css');
 @import url('./components/Header/Header-big.css');
+@import url('./components/CardProjects/CardProjects-big.css');
+@import url('./components/FormsMail/FormsMail-Big.css');
 @import url('./components/Tag/Tag-Big.css');
+@import url('./components/Footer/Footer-big.css');
 
 
 /*Pages*/

@@ -3,16 +3,10 @@
     width: 15rem;
     height: 14rem;
     margin-top: 15px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-  }
-
-  .image-project-card {
-    height: 10rem;
-    width: 15rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+    justify-content: space-around;
+    margin-bottom: 30px;
   }
 
   .description-project-card {
@@ -26,7 +20,6 @@
 
   .headling-project-card {
     font-size: 12px;
-    padding-bottom: 8px;
   }
 
   .paragraph-project-card {

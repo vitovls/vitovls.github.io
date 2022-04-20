@@ -1,10 +1,10 @@
 @media only screen and (min-width: 600px){
   .tag-cards-projects{
-    padding: 8px;
+    padding: 5px;
     margin: 2px;
     font-size: 10px;
     height: 1rem;
-    width: 5rem;
+    width: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;

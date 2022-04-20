@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import react from 'react'
 import listProjects from '../list-projects.json'
 import Tag from '../components/Tags'
 import Image from 'next/image'

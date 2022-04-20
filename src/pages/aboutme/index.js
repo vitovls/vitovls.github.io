@@ -1,8 +1,6 @@
-import react from 'react';
 import MyHead from '../../components/MyHead.js';
 import Header from '../../components/Header.js';
 import Footer from '../../components/Footer'
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 

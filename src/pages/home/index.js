@@ -1,4 +1,3 @@
-import react from 'react';
 import MyHead from '../../components/MyHead'
 import Header from '../../components/Header.js';
 import Footer from '../../components/Footer.js';

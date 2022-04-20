@@ -1,5 +1,3 @@
-import react from 'react';
-import Head from 'next/head';
 import Header from '../../components/Header';
 import MyHead from '../../components/MyHead';
 import { useRouter } from 'next/router';

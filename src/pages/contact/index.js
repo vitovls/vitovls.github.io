@@ -1,8 +1,6 @@
-import react, {useState} from 'react';
 import Header from '../../components/Header';
 import { useRouter } from 'next/router';
 import MyHead from '../../components/MyHead';
-import Link from 'next/link';
 import FormsMail from '../../components/FormsMail';
 import Footer from '../../components/Footer'
 import Image from 'next/image';

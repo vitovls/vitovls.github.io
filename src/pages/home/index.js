@@ -23,7 +23,7 @@ export default function Home() {
         </main>
         <section className='buttons-home'>
         <Link passHref href='/projects'><button className='more-button'>Conhecer mais!</button></Link>
-        <a target='_blank' href='https://encr.pw/98V1P' rel="noreferrer"><button className='dowload-cv-button'> Baixar CV ⬇️ </button></a>
+        <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1MFLgkyVsI_QuRoaprqPBgiuXlgUaj7E7/view'><button className='dowload-cv-button'> CV ⬇️ </button></a>
         </section>
         <Footer />
       </section>

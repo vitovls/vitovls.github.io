@@ -5,6 +5,7 @@ import MyHead from '../../components/MyHead';
 import Link from 'next/link';
 import FormsMail from '../../components/FormsMail';
 import Footer from '../../components/Footer'
+import Image from 'next/image';
 
 
 export default function Contato() {
@@ -16,7 +17,7 @@ export default function Contato() {
       <Header props={pathname}/>
       <main className='contact'>
         <section className='section-mail-header-contact'>
-          <img className='icon-contact' src='https://img.icons8.com/color/344/secured-letter--v1.png' />
+          <Image width='60px' height='60px' alt='Icone de Enviar Email' className='icon-contact' src='/icons/send.png'/>
           <p>Me envie um email!</p>
         </section>
         <FormsMail />
@@ -25,14 +26,14 @@ export default function Contato() {
         <section className='section-social-contact'>
           <a href='https://www.github.com/vitovls'>
             <>
-              <img className='icon-contact' src='https://i.imgur.com/7rITkqB.png' />
+              <Image alt='GitHub Logo' width='80px' height='80px' src='/SocialLogos/Github-Logo.png' />
               <p>Meu GitHub</p>
             </>
           </a>
          
           <a href='https://www.linkedin.com/in/vitovls'>
             <>
-              <img className='icon-contact' src='https://i.imgur.com/DhHQ7Y2.png' />
+              <Image alt='Linkedin Logo' width='80px' height='80px' src='/SocialLogos/Linkedin-Logo.png' />
               <p>Meu Linkedin</p>
             </>
           </a>
